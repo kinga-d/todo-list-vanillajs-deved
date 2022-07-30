@@ -1,1 +1,8 @@
-// JavaScript source code
+//Selectors
+const todoInput = 
+
+
+
+//Event Listeners
+
+//Functions

@@ -97,3 +97,39 @@ form input, form button {
 	transform: translateY(8rem) rotateZ(20deg);
 	opacity: 0;
 }
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	border: none;
+}
+
+.select {
+	margin: 1rem;
+	position:relative;
+	overflow:hidden;
+}
+
+select {
+	color:darkorchid;
+	width: 10rem;
+	cursor:pointer;
+	padding: 1rem;
+}
+
+.select::after {
+	content: "\25BC";
+	position: absolute;
+	background: cornflowerblue;
+	top: 0;
+	right: 0;
+	padding: 0.8rem;
+	pointer-events: none;
+}
+
+.select:hover::after {
+	color: cornflowerblue;
+	background: white;
+}
